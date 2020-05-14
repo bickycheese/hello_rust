@@ -7,11 +7,20 @@
 			"problemMatcher": [
 				"$rustc"
 			],
-			"label": "Rust: cargo check - hell_cargo",
+			"label": "Rust: cargo ✔ - hello_cargo",
 			"group": {
 				"kind": "build",
 				"isDefault": true
 			}
+		},
+		{
+			"type": "cargo",
+			"subcommand": "build",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"label": "Rust: cargo BUILD - hello_cargo",
+			"group": "build"
 		}
 	]
 }
