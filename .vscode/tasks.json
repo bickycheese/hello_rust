@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cargo",
+			"subcommand": "check",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"label": "Rust: cargo check - hell_cargo",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

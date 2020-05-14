@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "rust-lang.rust",
+        "ms-vscode.cpptools",
+        "serayuzgur.crates",
+        "Swellaby.rust-pack"
+    ]
+}
